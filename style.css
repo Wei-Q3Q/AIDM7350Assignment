@@ -1,0 +1,192 @@
+* {
+    padding:0;
+    margin:0;
+}
+header {
+    background-color: rgb(158, 14, 14);
+    height: 80px;
+    width: 100%;
+    position: fixed;    
+    display: flex;
+    align-items: center;
+    padding-left: 120px;
+    font-family: "STXingkai", "LiSu", "STKaiti", "KaiTi", "楷体", "行楷", cursive; 
+}
+
+h1 {
+    color: gold;
+    line-height: 80px;
+    display: flex;
+    align-items: center;
+    text-indent: 0;
+    font-size: 46px; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+h1 img {
+    height: 80px;
+    margin-right: 15px;
+}
+header ul {
+    position:absolute;
+    right:5vw;
+    top:0;
+    line-height:80px;
+}
+header li {
+    display:inline;
+    margin-right:4vw;    
+}
+header a {
+    color:gold;
+    text-decoration: none;
+}
+header a:hover {
+    text-decoration: underline;
+}
+.slogan {
+    background-color: antiquewhite;
+    color:rgb(189, 47, 12);
+    height:95vh;
+    background-image: url("images/banner.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    font-family: "STXingkai", "LiSu", "STKaiti", "KaiTi", "楷体", "行楷", cursive; 
+} 
+.slogan h2 {
+    font-size:60px;
+    margin-top:60px;
+} 
+.slogan p {
+    color:#ad2b21;
+    font-size:28px;
+    margin:25px 0;
+}
+.activity {
+    display: flex;
+    background-color: antiquewhite;
+    gap: 0; 
+    align-items: stretch; 
+}
+
+.activity img {
+    width: 30%; 
+    max-width: 400px;
+    height: auto;
+    object-fit: cover; 
+    border-radius: 8px 0 0 8px; 
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin: 0;
+}
+
+.info {
+    width: 70%; 
+    background-color: white;
+    background-image: url("images/banner.png");
+    background-size: cover;
+    background-position: top center; 
+    background-repeat: repeat-x; 
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    padding: 20px; 
+    box-sizing: border-box; 
+    border-radius: 0 8px 8px 0; 
+}
+.info h2 {
+    font-size:50px;
+    margin-bottom: 40px;
+    color:#ad2b21;
+    font-family: "STXingkai", "LiSu", "STKaiti", "KaiTi", "楷体", "行楷", cursive;
+}
+.info p {
+    text-align: center;
+    line-height: 2em;
+    font-size:22px;
+}
+.origin {
+    display:flex;
+    background-color:#ede9db;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 180px 80px;
+}
+.origin div {
+    width:300px;
+    text-align:center;
+}
+.origin img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3),  
+                0 6px 6px rgba(0, 0, 0, 0.2);    
+    transition: transform 0.3s, box-shadow 0.3s; 
+}
+
+.origin img:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4), 
+                0 8px 8px rgba(0, 0, 0, 0.3);
+}
+.origin h3 {
+    font-size: 20px;    
+    margin: 20px 0;
+}
+.origin p {
+    font-size:14px;
+    line-height: 1.6em;
+}
+.newsletter {
+    background-color:goldenrod;
+    color:white;
+    padding:60px 0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.newsletter p {
+    margin-bottom: 40px;
+    color: rgb(189, 47, 12);
+    font-family: "楷体", KaiTi, "STKaiti", serif;
+    font-weight: bold; 
+    font-size:20px;
+}
+.newsletter input, .newsletter button {
+    background-color: transparent;
+    color:white;
+    border: 1px solid #949d9a; 
+    padding: 10px; 
+    border-radius: 5px;;
+}
+.newsletter input {
+    width:200px;
+    margin-right: 15px;;
+}
+.newsletter button {
+    width:80px;
+    cursor:pointer;
+}
+input::placeholder {
+    color:#DDDDDD;
+}
+input:focus {
+    outline: none; 
+    border-color:#E0E9A3; 
+}
+footer {
+    background-color: rgb(158, 14, 14);
+    color:gold;
+    height:60px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+.menu {
+    display:none;
+}
